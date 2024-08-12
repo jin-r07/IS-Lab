@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47228a10-6753-4166-9e1f-96c5a722cec9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayfairCipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlayfairCipher.py" afterDir="false" />
-    </list>
+    <list default="true" id="47228a10-6753-4166-9e1f-96c5a722cec9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +59,7 @@
       <updated>1723442503426</updated>
       <workItem from="1723442505469" duration="5000" />
       <workItem from="1723442520848" duration="130000" />
-      <workItem from="1723442669853" duration="1063000" />
+      <workItem from="1723442669853" duration="1385000" />
     </task>
     <servers />
   </component>
