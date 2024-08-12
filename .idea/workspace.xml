@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47228a10-6753-4166-9e1f-96c5a722cec9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DES.py" beforeDir="false" afterPath="$PROJECT_DIR$/DES.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,7 @@
     "Python.CaesarCipher.executor": "Run",
     "Python.DES.executor": "Run",
     "Python.PlayfairCipher.executor": "Run",
+    "Python.Primality Test.executor": "Run",
     "Python.Railfence Cipher.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -72,7 +71,7 @@
       <updated>1723442503426</updated>
       <workItem from="1723442505469" duration="5000" />
       <workItem from="1723442520848" duration="130000" />
-      <workItem from="1723442669853" duration="3140000" />
+      <workItem from="1723442669853" duration="3728000" />
     </task>
     <servers />
   </component>
