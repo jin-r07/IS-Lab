@@ -1,5 +1,3 @@
-import math
-
 def is_prime_basic(n):
     if n <= 1:
         return False
