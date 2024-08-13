@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47228a10-6753-4166-9e1f-96c5a722cec9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Euclidean Algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Euclidean Algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,9 @@
       <workItem from="1723442520848" duration="130000" />
       <workItem from="1723442669853" duration="4033000" />
       <workItem from="1723448645218" duration="2000" />
+      <workItem from="1723460995405" duration="191000" />
+      <workItem from="1723461195230" duration="13000" />
+      <workItem from="1723468200944" duration="7000" />
     </task>
     <servers />
   </component>

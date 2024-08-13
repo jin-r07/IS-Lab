@@ -20,6 +20,7 @@ def caesar_cipher(text, shift, encrypt=True):
             result += char
     return result
 
+
 def CaesarCipher():
     while True:
         option = input("------- Caesar Cipher ------\nEnter the option: \n1. Encrypt \n2. Decrypt \n3. Exit.\n")
@@ -45,5 +46,6 @@ def CaesarCipher():
 
         else:
             print("Invalid option. Please choose 1, 2, or 3.\n")
+
 
 CaesarCipher()

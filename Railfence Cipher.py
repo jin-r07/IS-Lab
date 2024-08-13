@@ -14,6 +14,7 @@ def encrypt_rail_fence(plain_text, rails):
 
     return ''.join(rail_pattern)
 
+
 def decrypt_rail_fence(cipher_text, rails):
     if rails == 1:
         return cipher_text
@@ -48,6 +49,7 @@ def decrypt_rail_fence(cipher_text, rails):
 
     return ''.join(decrypted_text)
 
+
 def RailFenceCipher():
     while True:
         option = input("------- Rail Fence Cipher ------\nEnter the option: \n1. Encrypt \n2. Decrypt \n3. Exit.\n")
@@ -76,5 +78,6 @@ def RailFenceCipher():
 
         else:
             print("Invalid option. Please choose 1, 2, or 3.\n")
+
 
 RailFenceCipher()

@@ -12,6 +12,7 @@ def is_prime_basic(n):
         i += 6
     return True
 
+
 def PrimalityTest():
     while True:
         option = input("------- Primality Test ------\nEnter the option: \n1. Check if Prime \n2. Exit\n")
@@ -34,5 +35,5 @@ def PrimalityTest():
         else:
             print("Invalid option. Please choose 1 or 2.\n")
 
-PrimalityTest()
 
+PrimalityTest()
