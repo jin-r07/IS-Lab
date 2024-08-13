@@ -21,7 +21,7 @@ def AESExample():
         option = input("------- AES Encryption ------\nEnter the option: \n1. Encrypt \n2. Decrypt \n3. Exit.\n")
 
         if option in ["1", "2"]:
-            text = input("Enter the text: ")
+            text = input("Enter the text : ")
             key = input("Enter the 16/24/32-byte key: ").encode()
 
             if len(key) not in [16, 24, 32]:
