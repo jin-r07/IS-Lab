@@ -4,7 +4,6 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.backends import default_backend
 
-
 def generate_rsa_keys():
     # Generate private key
     private_key = rsa.generate_private_key(
@@ -60,14 +59,12 @@ def rsa_decrypt(private_key, encrypted):
 def RSAExample():
     private_key, public_key = generate_rsa_keys()
 
-    print("RSA Keys Generated.\n")
-
     while True:
         option = input(
             "------- RSA ------\nEnter the option: \n1. Encrypt \n2. Decrypt \n3. Exit.\n")
 
         if option == "1":
-            plaintext = input("Enter the text to encrypt: ")
+            plaintext = input("Enter the text: ")
             encrypted = rsa_encrypt(public_key, plaintext)
             print(f"Encrypted Text (hex): {encrypted.hex()}\n")
 
@@ -78,11 +75,11 @@ def RSAExample():
             print(f"Decrypted Text: {decrypted}\n")
 
         elif option == "3":
-            print("Exiting...")
+            print("Exiting")
             break
 
         else:
-            print("Invalid option. Please choose 1, 2, or 3.\n")
+            print("Invalid option.\n")
 
 
 RSAExample()

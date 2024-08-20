@@ -14,18 +14,18 @@ def EuclideanAlgorithm():
                 a = int(input("Enter the first number: "))
                 b = int(input("Enter the second number: "))
             except ValueError:
-                print("Invalid input. Please enter integers.\n")
+                print("Invalid input.\n")
                 continue
 
             result = gcd(a, b)
             print(f"The GCD of {a} and {b} is {result}\n")
 
         elif option == "2":
-            print("Exiting...")
+            print("Exiting")
             break
 
         else:
-            print("Invalid option. Please choose 1 or 2.\n")
+            print("Invalid option.\n")
 
 
 EuclideanAlgorithm()

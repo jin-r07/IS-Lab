@@ -17,7 +17,7 @@ def aes_decrypt(ciphertext, key):
 
 def AESExample():
     while True:
-        option = input("------- AES Encryption ------\nEnter the option: \n1. Encrypt \n2. Decrypt \n3. Exit.\n")
+        option = input("------- AES ------\nEnter the option: \n1. Encrypt \n2. Decrypt \n3. Exit.\n")
 
         if option in ["1", "2"]:
             text = input("Enter the text : ")

@@ -9,7 +9,7 @@ def md5_hash(text):
     return md5.hexdigest()
 
 def md5_example():
-    text = input("Enter the text to hash: ")
+    text = input("Enter the text: ")
     hash_value = md5_hash(text)
     print(f"MD5 Hash: {hash_value}")
 

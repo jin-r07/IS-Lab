@@ -1,4 +1,4 @@
-def is_prime_basic(n):
+def is_prime(n):
     if n <= 1:
         return False
     if n <= 3:
@@ -15,25 +15,25 @@ def is_prime_basic(n):
 
 def PrimalityTest():
     while True:
-        option = input("------- Primality Test ------\nEnter the option: \n1. Check if Prime \n2. Exit\n")
+        option = input("------- Primality Test ------\nEnter the option: \n1. Check if Prime \n2. Exit.\n")
 
         if option == "1":
             try:
-                number = int(input("Enter the number to check if it's prime: "))
-                result = is_prime_basic(number)
+                number = int(input("Enter a number: "))
+                result = is_prime(number)
                 if result:
-                    print(f"{number} is a prime number.\n")
+                    print(f"{number} is prime.\n")
                 else:
-                    print(f"{number} is not a prime number.\n")
+                    print(f"{number} is not prime.\n")
             except ValueError:
-                print("Invalid input. Please enter an integer.\n")
+                print("Invalid input.\n")
 
         elif option == "2":
-            print("Exiting...")
+            print("Exiting")
             break
 
         else:
-            print("Invalid option. Please choose 1 or 2.\n")
+            print("Invalid option.\n")
 
 
 PrimalityTest()
