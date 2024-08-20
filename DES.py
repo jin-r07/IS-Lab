@@ -1,7 +1,6 @@
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad, unpad
 
-
 def des_encrypt(text, key):
     cipher = DES.new(key, DES.MODE_ECB)
     padded_text = pad(text.encode(), DES.block_size)
@@ -18,7 +17,7 @@ def des_decrypt(ciphertext, key):
 
 def DESExample():
     while True:
-        option = input("------- DES Encryption ------\nEnter the option: \n1. Encrypt \n2. Decrypt \n3. Exit.\n")
+        option = input("------- DES ------\nEnter the option: \n1. Encrypt \n2. Decrypt \n3. Exit.\n")
 
         if option in ["1", "2"]:
             text = input("Enter the text: ")
@@ -36,11 +35,11 @@ def DESExample():
                 print(f"Decrypted Text: {result}\n")
 
         elif option == "3":
-            print("Exiting...")
+            print("Exiting")
             break
 
         else:
-            print("Invalid option. Please choose 1, 2, or 3.\n")
+            print("Invalid option.\n")
 
 
 DESExample()

@@ -1,7 +1,6 @@
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 
-
 def aes_encrypt(text, key):
     cipher = AES.new(key, AES.MODE_ECB)
     padded_text = pad(text.encode(), AES.block_size)
@@ -36,11 +35,11 @@ def AESExample():
                 print(f"Decrypted Text: {result}\n")
 
         elif option == "3":
-            print("Exiting...")
+            print("Exiting")
             break
 
         else:
-            print("Invalid option. Please choose 1, 2, or 3.\n")
+            print("Invalid option.\n")
 
 
 AESExample()

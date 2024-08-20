@@ -30,7 +30,7 @@ def CaesarCipher():
             try:
                 shift = int(input("Enter the shift number: "))
             except ValueError:
-                print("Invalid input for shift. Please enter an integer.\n")
+                print("Invalid input for shift.\n")
                 continue
 
             if option == "1":
@@ -41,11 +41,11 @@ def CaesarCipher():
                 print(f"Decoded Text: {result}\n")
 
         elif option == "3":
-            print("Exiting...")
+            print("Exiting")
             break
 
         else:
-            print("Invalid option. Please choose 1, 2, or 3.\n")
+            print("Invalid option.\n")
 
 
 CaesarCipher()

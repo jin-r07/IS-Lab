@@ -59,10 +59,10 @@ def RailFenceCipher():
             try:
                 rails = int(input("Enter the number depth: "))
                 if rails <= 0:
-                    print("Number of rails should be a positive integer.\n")
+                    print("Number of depth should be a positive integer.\n")
                     continue
             except ValueError:
-                print("Invalid input for rails. Please enter an integer.\n")
+                print("Invalid input.\n")
                 continue
 
             if option == "1":
@@ -73,11 +73,11 @@ def RailFenceCipher():
                 print(f"Decoded Text: {result}\n")
 
         elif option == "3":
-            print("Exiting...")
+            print("Exiting")
             break
 
         else:
-            print("Invalid option. Please choose 1, 2, or 3.\n")
+            print("Invalid option.\n")
 
 
 RailFenceCipher()
