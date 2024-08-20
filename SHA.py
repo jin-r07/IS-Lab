@@ -9,7 +9,7 @@ def sha256_hash(text):
     return sha256.hexdigest()
 
 def sha256_example():
-    text = input("Enter the text to hash: ")
+    text = input("Enter the text: ")
     hash_value = sha256_hash(text)
     print(f"SHA-256 Hash: {hash_value}")
 

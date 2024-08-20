@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47228a10-6753-4166-9e1f-96c5a722cec9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AES.py" beforeDir="false" afterPath="$PROJECT_DIR$/AES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Euclidean Algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Euclidean Algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Primality Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Primality Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RSA.py" beforeDir="false" afterPath="$PROJECT_DIR$/RSA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SHA.py" beforeDir="false" afterPath="$PROJECT_DIR$/SHA.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,7 @@
       <workItem from="1723533319849" duration="1001000" />
       <workItem from="1723547520319" duration="22000" />
       <workItem from="1724064265430" duration="6590000" />
-      <workItem from="1724131252083" duration="9708000" />
+      <workItem from="1724131252083" duration="12620000" />
     </task>
     <servers />
   </component>
